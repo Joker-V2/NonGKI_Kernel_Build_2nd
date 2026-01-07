@@ -80,7 +80,7 @@ runs:
           fi
 
           # KPM Detect
-          if [[ "${{ env.KPM_ENABLE }}" == "true" ]]; then
+          if [[ "${{ env.KPM_ENABLE }}" == "true" ]] && [[ "${{ env.KPM_INLINE }}" == "true" ]]; then
             if grep -q "CONFIG_KALLSYMS_ALL=y" "out/.config"; then
                 sed -i 's/# CONFIG_KPM is not set/CONFIG_KPM=y/' out/.config
                 echo "[+] Enabled KPM."
@@ -211,7 +211,7 @@ runs:
           bash pack_error_files.sh
 
       - name: KPM Patcher (Experiment)
-        if: env.KPM_ENABLE == 'true'
+        if: env.KPM_ENABLE == 'true' && env.KPM_INLINE == 'true'
         shell: bash
         run: |
           cd $GITHUB_WORKSPACE/device_kernel/

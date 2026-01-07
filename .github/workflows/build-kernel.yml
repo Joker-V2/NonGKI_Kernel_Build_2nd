@@ -47,6 +47,14 @@ jobs:
     secrets: inherit
 
   ## Redmi
+
+  build-redmi-note7pro-aosp-a15-xcalibur:
+    name: "Redmi Note 7 Pro (Based AOSP A15)"
+    strategy:
+      fail-fast: true
+    uses: ./.github/workflows/build-redmi-note7pro-aosp-a15-xcalibur.yml
+    secrets: inherit
+
   build-redmi-k20pro-aosp-a15-sovietstaross:
     name: "Redmi K20 Pro (Soviet-Star-OSS)(Based-AOSP A15)"
     strategy:

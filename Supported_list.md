@@ -1,6 +1,6 @@
 | Device | Location | Codename | Kernel/Author/Name | OS | Android | Pack Method | KernelSU | SuSFS | Hook | KPM | Re:Kernel | BBG | Status |  
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|  
-| Oneplus 8 | All | instantnoodle | [4.19/ppajda/XTD](https://github.com/ppajda/android_kernel_oneplus_sm8250) | Oxygen OS 13.1 | 13 | AnyKernel3 | rsuntk | ❌ | Syscall | ❌ | ❌ | ❌ | Stable |  
+| Oneplus 8 | All | instantnoodle | [4.19/ppajda/XTD](https://github.com/ppajda/android_kernel_oneplus_sm8250) | Oxygen OS 13.1 | 13 | AnyKernel3 | rsuntk | ❌ | Syscall | ❌ | ❌ | ✅ | Stable |  
 | Xiaomi Mix2s | All | polaris | [4.9/Evolution-X-Devices/sdm845](https://github.com/Evolution-X-Devices/kernel_xiaomi_sdm845) | Evolution X 10.X | 15 | AnyKernel3 | SukiSU(U) | ✅ | Inline | ✅ | ✅ | ✅ | Stable |   
 | Redmi K20 Pro | All | raphael | [4.14/SOVIET-ANDROID/SOVIET-STAR-OSS](https://github.com/SOVIET-ANDROID/kernel_xiaomi_raphael) | Based-AOSP | 15 | AnyKernel3 | SukiSU(U) | ✅ | Inline | ❌ | ❌ | ❌ | Stable |  
 | Samsung Note 10 Plus | EU | d2s | [4.14/Ocin4ever/ExtremeKernel](https://github.com/Ocin4ever/ExtremeKernel) | OneUI 7 | 15 | AnyKernel3 | SukiSU(U) | ✅ | Inline | ❌ | ❌ | ❌ | Stable |  
@@ -12,6 +12,7 @@
 | Redmi Note 11 Pro 5G | INT | veux | [5.4/dereference23/eplus](https://github.com/dereference23/kernel_xiaomi_sm6375) | Based AOSP | 16 | AnyKernel3 | SukiSU(U) | ✅ | Inline | ✅ | ❌ | ❌ | Stable |  
 | Oneplus 8 | All | instantnoodle | [4.19/toraidl/los](https://github.com/toraidl/android_kernel_oneplus_sm8250_los) | Color OS 15 | 15 | AnyKernel3 | SukiSU(U) | ✅ | Inline | ✅ | ❌ | ✅ | Stable |  
 | Xiaomi Mix2s | All | polaris | [4.19/duckyduckG/sdm845_419](https://github.com/duckyduckG/android_kernel_xiaomi_sdm845_419) | Based AOSP | 16 | AnyKernel3 | rsuntk | ✅ | Inline | ❌ | ❌ | ❌ | Stable |  
+| Nothing Phone (1) | All | spacewar | [5.4/LineageOS/LineageOS](https://github.com/LineageOS/android_kernel_nothing_sm7325) | Lineage OS 23.0 | 16 | AnyKernel3 | rsuntk | ✅ | Inline | ❌ | ❌ | ❌ | Stable |  
 
 **English**:  
 - OnePlus 8 OxygenOS/ColorOS 13.1 has been tested and can be used on the OnePlus 8, 8T, 8 Pro and 9R. This kernel will suspend maintenance of the SuSFS function.
